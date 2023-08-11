@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Scrollbar styles */
+.scrollbar-thin::-webkit-scrollbar {
+    width: 8px;
+    height: 10px;
+}
+
+.scrollbar-thumb-indigo-600::-webkit-scrollbar-thumb {
+    background-color: #4f46e5;
+    border-radius: 1rem;
+}
+
+.scrollbar-thumb-indigo-400:hover::-webkit-scrollbar-thumb {
+    background-color: #a073ca;
+}
+
+.scrollbar-track-transparent::-webkit-scrollbar-track {
+    background-color: transparent;
+}
